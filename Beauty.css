@@ -111,8 +111,7 @@ section.ourUtopia {
     display: block;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
-    height: 68vh;
+    height: 75vh;
     overflow: hidden;
 }
 
@@ -121,7 +120,7 @@ section.ourUtopia img {
     width: 500px;
     height: 500px;
     left: 0;
-    top: 5%;
+    top: 2%;
 }
 #Utopia_2 {
     position: absolute;
@@ -232,4 +231,49 @@ section.ourUtopia h1 {
     height: 40px;
     left: 80%;
     top: 70%;
+}
+
+section.ourMission {
+    position: relative;
+    background-image: url('Images/Background_4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    width: 100%;
+}
+
+#Mission {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 3%;
+    top: 25%;
+}
+
+section.ourMission p {
+    position: absolute;
+    font-size: 23px;
+    font-style: italic;
+    color: #fff;
+    left: 3%;
+    top: 45%;
+}
+
+#Ambitious-Lady {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 25%;
+    right: 5%;
+    border-radius: 45px;
+    z-index: +1;
+}
+
+#BlueBox {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 15%;
+    right: 0;
 }
