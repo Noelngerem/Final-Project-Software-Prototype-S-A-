@@ -106,7 +106,7 @@ body {
     transform: scaleX(1); /* Makes the line visible on hover */
 }
 
-main.ourWorld {
+section.ourUtopia {
     position: relative;
     display: block;
     justify-content: space-around;
@@ -116,7 +116,7 @@ main.ourWorld {
     overflow: hidden;
 }
 
-main.ourWorld img {
+section.ourUtopia img {
     position: absolute;
     width: 500px;
     height: 500px;
@@ -129,7 +129,7 @@ main.ourWorld img {
     height: 100px;
     left: 35%;
 }
-.ourWorld-box1 {
+.ourUtopia-box1 {
     position: absolute;
     width: 350px;
     height: 150px;
@@ -145,7 +145,7 @@ main.ourWorld img {
     transition: transform 0.3s ease;
 }
 
-.ourWorld-box2 {
+.ourUtopia-box2 {
     position: absolute;
     width: 350px;
     height: 150px;
@@ -187,7 +187,7 @@ main.ourWorld img {
     z-index: 1;
 }
 
-.ourWorld-box3 {
+.ourUtopia-box3 {
     position: absolute;
     width: 350px;
     height: 150px;
@@ -203,22 +203,22 @@ main.ourWorld img {
     transition: transform 0.3s ease;
 }
 
-.ourWorld-box1:hover {
+.ourUtopia-box1:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 
-.ourWorld-box2:hover {
+.ourUtopia-box2:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 
-.ourWorld-box3:hover {
+.ourUtopia-box3:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 
-main.ourWorld h1 {
+section.ourUtopia h1 {
     color: white;
     font-size: 25px;
     font-weight: bold;
